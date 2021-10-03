@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf') format('woff2'),
+    url('../fonts/Poppins-SemiBold.ttf') format('woff');
+  font-style: normal;
+}
+
+body {
+  background-color: royalblue;
+  font-family: 'Poppins';
+}
