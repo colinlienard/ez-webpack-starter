@@ -20,14 +20,28 @@ npm i
 
 ### Development
 
-Create a development server with hot realoding.
+Open a local development server with hot reloading.
+
+No needs to link `.js`, `.ts`, `.css` or `.scss` files, it's done automatically.
 
 ```bash
 # Yarn
 yarn dev
 
 # NPM
-npm dev
+npm run dev
+```
+
+### Linting
+
+Run those commands to lint your Javascript and Typescript files or use the [Eslint Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+
+```bash
+# Yarn
+yarn lint
+
+# NPM
+npm run lint
 ```
 
 ### Production
@@ -39,7 +53,7 @@ Create a `build` folder with minified and optimized files.
 yarn build
 
 # NPM
-npm build
+npm run build
 ```
 
 ## Featuring
@@ -49,3 +63,11 @@ npm build
 - [PostCSS](https://postcss.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Eslint](https://eslint.org/) with the [Airbnb](https://github.com/airbnb/javascript) config
+
+## Author
+
+[Colin Lienard](https://colin-lienard.fr/)
+
+## License
+
+[MIT](./LICENSE)
